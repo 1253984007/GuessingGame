@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0293B0DFEDBF5938BBF66D36BF4326C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */; };
+		16416D1C1C8A4E1DD91CA87787DF1E6E /* Pods-GuessingGame-desktop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE594D42ABB155A6714849107982759 /* Pods-GuessingGame-desktop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BED71C3F733418B40CD1F7EA8F9154E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E59D9D8EF41291B0C13BC330FA3126 /* Cocoa.framework */; };
+		9509935DE0FBE99AFD4D6772829C9F19 /* Pods-GuessingGame-mobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D0E9E72A4074FE2F6CF00EE4FF3141 /* Pods-GuessingGame-mobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D635DF47F6C78E530240575B598C959C /* Pods-GuessingGame-mobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993FD473AC84B2D23872804D382E8CEA /* Pods-GuessingGame-mobile-dummy.m */; };
+		DF6C43281245144DDB1C344BC82947F0 /* Pods-GuessingGame-desktop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CD2948BD337C8F08E2004613EA448 /* Pods-GuessingGame-desktop-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4B56AA0A92A1E39CD42BF9EAE530BC /* Pods-GuessingGame-desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessingGame-desktop.debug.xcconfig"; sourceTree = "<group>"; };
+		2AEEB3EAC415CEEE750A9B07A684A97D /* Pods-GuessingGame-mobile */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GuessingGame-mobile"; path = Pods_GuessingGame_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CD3BBD5928F4F25414BCCBCC165306 /* Pods-GuessingGame-desktop */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GuessingGame-desktop"; path = Pods_GuessingGame_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C853541CB0C25188FED8A6565C4DA6 /* Pods-GuessingGame-desktop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessingGame-desktop.modulemap"; sourceTree = "<group>"; };
+		4B2263FF24824519932C33DCDE949DA5 /* Pods-GuessingGame-desktop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessingGame-desktop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70E59D9D8EF41291B0C13BC330FA3126 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		785CD2948BD337C8F08E2004613EA448 /* Pods-GuessingGame-desktop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessingGame-desktop-dummy.m"; sourceTree = "<group>"; };
+		78DC43F20485FE142D859337036D00B6 /* Pods-GuessingGame-mobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessingGame-mobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F0B8A016A220EED7F380C520BC16E15 /* Pods-GuessingGame-desktop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessingGame-desktop-Info.plist"; sourceTree = "<group>"; };
+		964A8874023906F81BC019D5A52B1A6F /* Pods-GuessingGame-mobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuessingGame-mobile.modulemap"; sourceTree = "<group>"; };
+		965DFF4FD192140EE7EC636198661F20 /* Pods-GuessingGame-mobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuessingGame-mobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		993FD473AC84B2D23872804D382E8CEA /* Pods-GuessingGame-mobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuessingGame-mobile-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B531880473A16F030FF83B466B0D47B8 /* Pods-GuessingGame-mobile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessingGame-mobile-Info.plist"; sourceTree = "<group>"; };
+		D7D0E9E72A4074FE2F6CF00EE4FF3141 /* Pods-GuessingGame-mobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessingGame-mobile-umbrella.h"; sourceTree = "<group>"; };
+		D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCE594D42ABB155A6714849107982759 /* Pods-GuessingGame-desktop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuessingGame-desktop-umbrella.h"; sourceTree = "<group>"; };
+		E1BCDCF1106A97D47B19913E05B1AAF2 /* Pods-GuessingGame-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessingGame-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		EC6A4606F18E95ED92C972A40982D07A /* Pods-GuessingGame-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessingGame-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		F0784292D8BCC9765C3B69226D219B92 /* Pods-GuessingGame-desktop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuessingGame-desktop-acknowledgements.plist"; sourceTree = "<group>"; };
+		F26CE3DD8083A284DDAEAE9BD5468073 /* Pods-GuessingGame-desktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuessingGame-desktop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		695C7EF7E0AFEB11C9ADCD9BC7D9AA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0293B0DFEDBF5938BBF66D36BF4326C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD48480A51920170C928CDC7CF57587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BED71C3F733418B40CD1F7EA8F9154E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58665E417B4C06E15BC1B19044862D2E /* iOS */,
+				CE99DF0ABA5FB7E00AC2861D6C3EE997 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41EBD1A61C875BF6178207152B2B8B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CD3BBD5928F4F25414BCCBCC165306 /* Pods-GuessingGame-desktop */,
+				2AEEB3EAC415CEEE750A9B07A684A97D /* Pods-GuessingGame-mobile */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58665E417B4C06E15BC1B19044862D2E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A71F746CD775E9D451593C7CDAA018DE /* Pods-GuessingGame-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				964A8874023906F81BC019D5A52B1A6F /* Pods-GuessingGame-mobile.modulemap */,
+				965DFF4FD192140EE7EC636198661F20 /* Pods-GuessingGame-mobile-acknowledgements.markdown */,
+				78DC43F20485FE142D859337036D00B6 /* Pods-GuessingGame-mobile-acknowledgements.plist */,
+				993FD473AC84B2D23872804D382E8CEA /* Pods-GuessingGame-mobile-dummy.m */,
+				B531880473A16F030FF83B466B0D47B8 /* Pods-GuessingGame-mobile-Info.plist */,
+				D7D0E9E72A4074FE2F6CF00EE4FF3141 /* Pods-GuessingGame-mobile-umbrella.h */,
+				E1BCDCF1106A97D47B19913E05B1AAF2 /* Pods-GuessingGame-mobile.debug.xcconfig */,
+				EC6A4606F18E95ED92C972A40982D07A /* Pods-GuessingGame-mobile.release.xcconfig */,
+			);
+			name = "Pods-GuessingGame-mobile";
+			path = "Target Support Files/Pods-GuessingGame-mobile";
+			sourceTree = "<group>";
+		};
+		CE99DF0ABA5FB7E00AC2861D6C3EE997 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				70E59D9D8EF41291B0C13BC330FA3126 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */,
+				41EBD1A61C875BF6178207152B2B8B75 /* Products */,
+				EB1CE4FE0EDE4BE6312A51AE5AF717A0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1CE4FE0EDE4BE6312A51AE5AF717A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE72F2B75B134ED7D279A418211A1681 /* Pods-GuessingGame-desktop */,
+				A71F746CD775E9D451593C7CDAA018DE /* Pods-GuessingGame-mobile */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE72F2B75B134ED7D279A418211A1681 /* Pods-GuessingGame-desktop */ = {
+			isa = PBXGroup;
+			children = (
+				48C853541CB0C25188FED8A6565C4DA6 /* Pods-GuessingGame-desktop.modulemap */,
+				4B2263FF24824519932C33DCDE949DA5 /* Pods-GuessingGame-desktop-acknowledgements.markdown */,
+				F0784292D8BCC9765C3B69226D219B92 /* Pods-GuessingGame-desktop-acknowledgements.plist */,
+				785CD2948BD337C8F08E2004613EA448 /* Pods-GuessingGame-desktop-dummy.m */,
+				7F0B8A016A220EED7F380C520BC16E15 /* Pods-GuessingGame-desktop-Info.plist */,
+				DCE594D42ABB155A6714849107982759 /* Pods-GuessingGame-desktop-umbrella.h */,
+				0A4B56AA0A92A1E39CD42BF9EAE530BC /* Pods-GuessingGame-desktop.debug.xcconfig */,
+				F26CE3DD8083A284DDAEAE9BD5468073 /* Pods-GuessingGame-desktop.release.xcconfig */,
+			);
+			name = "Pods-GuessingGame-desktop";
+			path = "Target Support Files/Pods-GuessingGame-desktop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8035321D1C0BA98D02F01829EFCFC0FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16416D1C1C8A4E1DD91CA87787DF1E6E /* Pods-GuessingGame-desktop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF632326AEF19993FF35BE85E9183306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9509935DE0FBE99AFD4D6772829C9F19 /* Pods-GuessingGame-mobile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06E5A4F9DFD134EC19F67DF731FC9D9A /* Pods-GuessingGame-desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5592391AC525E76F7BCB5DAD626F123A /* Build configuration list for PBXNativeTarget "Pods-GuessingGame-desktop" */;
+			buildPhases = (
+				8035321D1C0BA98D02F01829EFCFC0FD /* Headers */,
+				F789FC298F1FC7D9D2A28D36BC946407 /* Sources */,
+				7BD48480A51920170C928CDC7CF57587 /* Frameworks */,
+				EB874D6DAA01297704FFFA4F44E99202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GuessingGame-desktop";
+			productName = Pods_GuessingGame_desktop;
+			productReference = 33CD3BBD5928F4F25414BCCBCC165306 /* Pods-GuessingGame-desktop */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E5CEDED6B75A9EA6531E01314012B50 /* Pods-GuessingGame-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245F32485E4C4E9CA481883844AB2296 /* Build configuration list for PBXNativeTarget "Pods-GuessingGame-mobile" */;
+			buildPhases = (
+				EF632326AEF19993FF35BE85E9183306 /* Headers */,
+				3DEA4E49FB90E75FD89DB1EBC50B43C3 /* Sources */,
+				695C7EF7E0AFEB11C9ADCD9BC7D9AA93 /* Frameworks */,
+				7146BDDB5E35A39521D443F220B4F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GuessingGame-mobile";
+			productName = Pods_GuessingGame_mobile;
+			productReference = 2AEEB3EAC415CEEE750A9B07A684A97D /* Pods-GuessingGame-mobile */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 41EBD1A61C875BF6178207152B2B8B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E5A4F9DFD134EC19F67DF731FC9D9A /* Pods-GuessingGame-desktop */,
+				0E5CEDED6B75A9EA6531E01314012B50 /* Pods-GuessingGame-mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7146BDDB5E35A39521D443F220B4F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB874D6DAA01297704FFFA4F44E99202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEA4E49FB90E75FD89DB1EBC50B43C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D635DF47F6C78E530240575B598C959C /* Pods-GuessingGame-mobile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F789FC298F1FC7D9D2A28D36BC946407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6C43281245144DDB1C344BC82947F0 /* Pods-GuessingGame-desktop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48774156A9FED193FCDE80DADCF127B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BCDCF1106A97D47B19913E05B1AAF2 /* Pods-GuessingGame-mobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessingGame-mobile/Pods-GuessingGame-mobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessingGame-mobile/Pods-GuessingGame-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F46326CCAC9258284BA1C56AD98B7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26CE3DD8083A284DDAEAE9BD5468073 /* Pods-GuessingGame-desktop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessingGame-desktop/Pods-GuessingGame-desktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessingGame-desktop/Pods-GuessingGame-desktop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CC619172F91086ECC293FBCB59F078A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB38F749E9AF29634B0CE50FB0ED1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4B56AA0A92A1E39CD42BF9EAE530BC /* Pods-GuessingGame-desktop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessingGame-desktop/Pods-GuessingGame-desktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessingGame-desktop/Pods-GuessingGame-desktop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7CF9E07AB376F14BB4EAC24932D2832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6A4606F18E95ED92C972A40982D07A /* Pods-GuessingGame-mobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuessingGame-mobile/Pods-GuessingGame-mobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuessingGame-mobile/Pods-GuessingGame-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F881F1CA05314CE652DFF172C028A5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245F32485E4C4E9CA481883844AB2296 /* Build configuration list for PBXNativeTarget "Pods-GuessingGame-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48774156A9FED193FCDE80DADCF127B2 /* Debug */,
+				E7CF9E07AB376F14BB4EAC24932D2832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F881F1CA05314CE652DFF172C028A5B0 /* Debug */,
+				9CC619172F91086ECC293FBCB59F078A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5592391AC525E76F7BCB5DAD626F123A /* Build configuration list for PBXNativeTarget "Pods-GuessingGame-desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB38F749E9AF29634B0CE50FB0ED1141 /* Debug */,
+				5F46326CCAC9258284BA1C56AD98B7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
